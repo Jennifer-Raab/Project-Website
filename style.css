@@ -1,3 +1,4 @@
+hero-section
 * {
     padding: 0;
     margin: 0;
@@ -24,13 +25,10 @@
     gap: 20px;
 }
 
-
-
 #header-logo span {
     color: aqua;
     font-size: 32px;
     font-weight: lighter;
-
 }
 
 #navigation {
@@ -56,7 +54,6 @@ a:visited {
   align-items: center;
   flex-direction: column;
   margin-top: 10rem;
-
 }
 
 #hero-section h1 {
@@ -82,3 +79,39 @@ a:visited {
     border: 1px solid aqua;
     margin: 3rem;
 }
+
+/* <!-- --------------------created Simran'---------start------------- */
+
+#story-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#story-section .story_section_text a {
+    padding: 18px;
+    border: 1px solid rgb(107 220 208);
+    text-decoration: none;
+    color: rgb(107 220 208);
+    font-weight: 900px;
+}
+#story-section .story_section_main {
+    display: flex;
+    justify-content: space-between;
+}
+#story-section img {
+    width: 200px;
+}
+#story-section .story_section_img{
+width: 500px;
+}
+#story-section .story_section_text{
+    width: 660px;
+    }
+#story-section .story_section_inner_text {
+    margin-bottom: 30px;
+}
+#story-section .story_section_inner_text p{
+    color: rgb(112 111 120);
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* <!-- --------------------created Simran'------------end---------- */
