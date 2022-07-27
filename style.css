@@ -152,17 +152,19 @@ a:visited {
 #hero-section h1 {
     font-size: 34px;
     align-self: center;
+    margin-bottom: 0;
 }
 
 #pretty-line {
     border: .1px solid aqua;
     width: 48px;
-    margin: 1.2rem auto 1.8rem auto;
+    margin: 1.4rem auto 1.6rem auto;
 }
 
 #hero-section p {
     text-align: center;
     line-height: 1.5em;
+    margin-top: 0;
 }
 
 #learn-more-btn {
