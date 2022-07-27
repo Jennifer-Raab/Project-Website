@@ -1,3 +1,91 @@
+/* Maria's css*/
+#team-section h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+#team-section h3{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#team-section h4{
+    margin-bottom: 0px;
+}
+
+#team-section{
+    background-image: url("images/bgk-header.png");
+    background-size: cover;
+    padding: 3% 0;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    width: 50px;
+    height: 1px;
+    background-color: rgb(146, 146, 146);
+    border: none;
+}
+
+.team {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .member {
+    border: 1px solid white;
+  }
+
+  .member img{
+    width: 230px;
+    height: 250px;
+  }
+  
+  .member-name {
+    text-align: center;
+    color: white;
+  }
+
+  .member-name p{
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(209, 209, 209);
+    margin-bottom: 25px;
+  }
+
+  .action-text{
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+  }
+
+  .center-button{
+    text-align: center;
+  }
+
+  .blue-button{
+    padding: 10px;
+    background-color: transparent;
+    border-color: #72BFBE;
+    border-radius: 3px;
+    color: #72BFBE;
+  }
+  
 /* Jenny Section start*/
 hero-section
 * {
@@ -117,3 +205,4 @@ width: 500px;
     line-height: 1.5;
 }
 /* <!-- --------------------created Simran'------------end---------- */
+
