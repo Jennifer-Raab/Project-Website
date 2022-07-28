@@ -1,3 +1,4 @@
+
 html {
     padding: 0;
     margin: 0;
@@ -144,6 +145,7 @@ a:visited {
 }
 /* Story Section Simran ends */
 
+
 /*Watch Section Jenny starts*/
 #watch-image {
     height: 500px;
@@ -163,7 +165,6 @@ a:visited {
 }
 /*Watch Section Jenny ends*/
 
-
 /* Expertise Section Maria starts */
 .padding-section{
   padding: 40px 0;
@@ -178,10 +179,12 @@ a:visited {
   text-align: center;
   font-weight: 100;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .card-text h4{
   text-align: center;
+  padding: 10px;
 }
 
 .card-text p{
@@ -190,6 +193,7 @@ a:visited {
   font-weight: 100;
   color: rgb(112, 112, 112);
   margin-bottom: 25px;
+  padding: 10px;
 }
 
 .cards {
@@ -222,6 +226,7 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  padding: 10px;
 }
 /* Expertise Section Maria ends */
 
@@ -237,10 +242,12 @@ a:visited {
     color: white;
     font-weight: 100;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #team-section h4{
-    margin-bottom: 0px;
+    margin: 10px;
+    color: white;
 }
 
 #team-section{
@@ -259,7 +266,8 @@ hr{
     height: 1px;
     background-color: rgb(146, 146, 146);
     border: none;
-    margin-bottom: 50px;
+    margin: auto;
+    margin-bottom: 70px;
 }
 
 .team {
@@ -357,6 +365,9 @@ button{
     padding-bottom: 7%;
     padding-right: 20%;
 }
+/* Contact Client Section Maria ends  */
+
+
 /* Contact Client Section Maria starts  */
 
 
@@ -381,6 +392,7 @@ footer .container {
 .main-footer .mainfooter-img {
     display: flex;
     align-items: center;
+        margin-bottom: 30px;
 }
 
 .main-footer .mainfooter-img img {
@@ -420,9 +432,11 @@ footer .container {
     color: #fff;
      font-size: 20px;
      margin-top: 10px;
+        margin-bottom: 40px;
 }
 
 .main-footer .mainfooter_nav_main .mainfooter_nav_copyright {
+
     color: #fff;
     text-decoration: none;
     font-weight: 275;
@@ -457,9 +471,12 @@ footer .container {
     padding-right:45px;
 }
 
+.main-footer .mainfooter_nav_main .mainfooter_nav {
+  padding-right: 500px;
+}
+
 .main-footer .mainfooter_nav_second .mainfooter_nav_studio {
     display: flex;
-  
 }
 
 .main-footer .mainfooter_nav_second .mainfooter_nav_studio .mainfooter_nav_img{
@@ -502,17 +519,17 @@ padding-right: 20px;
 }
 ::-webkit-input-placeholder {
     /* Edge */
-    color: rgb(255, 255, 255);
+    color: rgb(186, 186, 186);
 }
 
 :-ms-input-placeholder {
     /* Internet Explorer */
-    color: rgb(255, 255, 255);
+    color: rgb(186, 186, 186);
 }
 
 .main-footer .row .email::placeholder {
     color: rgb(255, 255, 255);
-}
+
 
 .main-footer .row .email input {
     background: #ffffff;
@@ -523,6 +540,7 @@ padding-right: 20px;
     width: 65%;
     background: none;
     height: 28px;
+        margin: 0;
 }
 
 .main-footer .row .email a {
@@ -587,4 +605,3 @@ padding-right: 20px;
     text-align: center;
 }
 /* <!-- Footer Simran end---------- */
-
