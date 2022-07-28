@@ -1,4 +1,8 @@
 /* Maria's css*/
+body{
+    margin:0;
+} 
+
 #team-section h2{
     text-align: center;
     color: white;
@@ -21,8 +25,6 @@
     background-size: cover;
     padding: 3% 0;
     height: 100%;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +54,7 @@ hr{
 
   .member img{
     width: 230px;
-    height: 250px;
+    height: 260px;
   }
   
   .member-name {
@@ -79,13 +81,52 @@ hr{
   }
 
   .blue-button{
-    padding: 10px;
     background-color: transparent;
-    border-color: #72BFBE;
-    border-radius: 3px;
-    color: #72BFBE;
+    padding: 10px 13px;
+    color: aqua;
+    border: 1px solid aqua;
+    margin-top: 3%;
   }
-  
+
+  .container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .contact, .client-logos{
+    width: 40%;
+  }
+
+  input, textarea{
+    padding: 3%; 
+    border:1px solid #ccc; 
+    width: 80%;
+    margin-top:15px;
+    font-size:12px;
+    
+  }
+
+  button{
+    background-color: transparent;
+    padding: 10px 6%;
+    color: rgba(106,219,206,255);
+    border: 2px solid rgba(106,219,206,255);
+    border-radius: 2px;
+    margin-top: 3%;
+    font-weight: 700;
+  }
+
+  .client-logos img{
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+  }
+
 /* Jenny Section start*/
 hero-section
 * {
