@@ -5,12 +5,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
+}
+
+#watch-image p {
+    color: white;
 }
 /*Watch Section Jenny ends*/
 
@@ -267,10 +270,15 @@ a:visited {
   margin-top: 6rem;
 }
 
+#hero-section p {
+    color: #ffffff;
+}
+
 #hero-section h1 {
     font-size: 34px;
     align-self: center;
     margin-bottom: 0;
+    color: #ffffff;
 }
 
 #pretty-line {
