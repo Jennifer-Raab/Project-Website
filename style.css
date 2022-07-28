@@ -362,6 +362,7 @@ footer .main-footer {
 footer .main-footer .mainfooter-img {
     display: flex;
     align-items: center;
+        margin-bottom: 30px;
 }
 footer .main-footer .mainfooter-img img {
     padding-right: 30px;
@@ -394,8 +395,9 @@ footer .main-footer .mainfooter_nav_second h5 {
     color: #fff;
      font-size: 20px;
      margin-top: 10px;
+        margin-bottom: 40px;
 }
-footer .main-footer .mainfooter_nav_main .mainfooter_nav_copyright {
+footer .main-footer .mainfooter_nav_main .mainfooter_nav_copyright p{
     color: #fff;
     text-decoration: none;
     font-weight: 275;
@@ -427,6 +429,9 @@ footer .main-footer .mainfooter_nav_main .mainfooter_nav ul li a {
 }
 footer .main-footer .mainfooter_nav_main .mainfooter_nav ul li {
     padding-right:45px;
+}
+footer .main-footer .mainfooter_nav_main .mainfooter_nav {
+  padding-right: 500px;
 }
 footer .main-footer .mainfooter_nav_second .mainfooter_nav_studio {
     display: flex;
