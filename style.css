@@ -14,6 +14,24 @@ ul {
     list-style-type: none;
 }
 
+h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+}
+
+button{
+    color: rgba(106,219,206,255);
+    border: 1px solid rgba(106,219,206,255);
+    background-color: transparent;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
 /* Nav-bar and Hero Section Jenny start*/
 #header {
     background-image: url(images/bgk-header.png);
@@ -39,7 +57,7 @@ ul {
 }
 
 #header-logo span {
-    color: aqua;
+    color: rgba(106,219,206,255);;
     font-size: 32px;
     font-weight: lighter;
 }
@@ -58,7 +76,7 @@ ul {
 }
 
 .nav-items a:hover {
-    color: aqua;
+    color: rgba(106,219,206,255);;
 }
 
 #hero-section {
@@ -81,7 +99,7 @@ ul {
 }
 
 #pretty-line {
-    border: .1px solid aqua;
+    border: .1px solid rgba(106,219,206,255);
     width: 48px;
     margin: 1.4rem auto 1.6rem auto;
 }
@@ -93,11 +111,8 @@ ul {
 }
 
 #learn-more-btn {
-    background-color: transparent;
     padding: 10px 13px;
-    color: aqua;
-    border: 1px solid aqua;
-    margin: 3rem;
+    margin-top: 3%;
 }
 /* Nav-bar and Hero Section Jenny end*/
 
@@ -105,20 +120,11 @@ ul {
 #story-section .container {
     padding-bottom: 100px;
     padding-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #story-section .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-#story-section .story_section_text a {
-    padding: 15px;
-    font-weight: 900;
-    text-decoration: none;
-    color: aqua;
-    border: 1px solid aqua;
 }
 
 #story-section .story_section_main {
@@ -179,7 +185,6 @@ ul {
 
 #expertise-section h2{
   text-align: center;
-  margin-bottom: 0;
 }
 
 #expertise-section h3{
@@ -209,7 +214,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family:Arial, Helvetica, sans-serif;
 }
 
 .card{
@@ -241,7 +245,6 @@ ul {
 #team-section h2{
     text-align: center;
     color: white;
-    margin-bottom: 0;
 }
 
 #team-section h3{
@@ -284,7 +287,6 @@ hr{
     gap: 20px;
     justify-content: center;
     padding: 40px 0;
-    font-family:Arial, Helvetica, sans-serif;
 }
   
 .member {
@@ -311,20 +313,15 @@ hr{
 .action-text{
     color: white;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-bottom: 10px;
-}
-
-.center-button{
-    text-align: center;
 }
 
 .blue-button{
-    background-color: transparent;
+    text-align: center;
+    margin-top: 0 !important;
+}
+
+.action-button{
     padding: 10px 13px;
-    color: aqua;
-    border: 1px solid aqua;
-    margin-top: 3%;
 }
 /* Team Section Maria ends */
 
@@ -346,21 +343,16 @@ input, textarea{
     padding: 3%; 
     border:1px solid #ccc; 
     width: 100%;
-    margin-top:15px;
-    font-size:12px;
-    
+    margin-top:15px;   
+    letter-spacing: 0.1rem; 
 }
 
 #contact-input ::placeholder {
     color: rgb(112 111 120);
 }
 
-button{
-    background-color: transparent;
+.contact button{
     padding: 10px 6%;
-    color: rgba(106,219,206,255);
-    border: 2px solid rgba(106,219,206,255);
-    border-radius: 2px;
     margin-top: 3%;
     font-weight: 700;
 }
@@ -380,16 +372,11 @@ button{
 footer .container {
     max-width: 1200px;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
 }
 footer .main-footer {
-    background: #333333;
-    padding-bottom: 47px;
     background-image: url(images/bgk-footer.png);
-    background-repeat: no-repeat;
     width: 100%;
     max-width: 100%;
-    background-position: center;
     background-size: cover;
 }
 footer .main-footer .mainfooter-img {
@@ -406,7 +393,7 @@ footer .main-footer .mainfooter-img-logo {
 footer .main-footer .mainfooter-img-logo .mainfooter-img p {
     font-size: 30px;
     margin: 0;
-    color: aqua;
+    color: rgba(106,219,206,255)
 }
 footer .main-footer .mainfooter-img-logo .mainfooter-font p {
     font-size: 18px;
@@ -450,6 +437,7 @@ footer .main-footer .mainfooter_nav_main ul li {
 footer .main-footer .mainfooter_nav_main {
     display: flex;
     justify-content: space-between;
+    margin-top: 3rem;
 }
 footer .main-footer .mainfooter_nav_main .mainfooter_nav ul li a {
     color: #fff;
@@ -526,7 +514,6 @@ footer .main-footer .row .email input {
 footer .main-footer .row .email a {
     padding: 10px 30px;
     border: 0;
-    font-family: HelveticaNowText-Medium;
     position: absolute;
     top: 0;
     right: 0%;
@@ -557,24 +544,5 @@ footer .main-footer .row .mobile-social-icon ul img {
     margin-right: 20px;
     opacity: 0.9;
     border-radius: 4px;
-}
-footer .main-footer .down-button {
-    text-align: right;
-    position: relative;
-    z-index: 3;
-    bottom: 415px;
-}
-footer .main-footer .down-button .top-scroll {
-    cursor: pointer;
-    margin-right: 0;
-}
-footer .main-footer .down-button .button-back {
-    background: #feca00;
-    border-radius: 4px;
-    display: inline-block;
-    width: 46px;
-    height: 46px;
-    padding-top: 12px;
-    text-align: center;
 }
 /* <!-- Footer Simran end---------- */
