@@ -7,6 +7,10 @@ html {
     color: rgb(112 111 120);
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Nav-bar and Hero Section Jenny start*/
 #header {
     background-image: url(images/bgk-header.png);
@@ -40,18 +44,18 @@ html {
 #navigation {
     display: inline-flex;
     gap: 25px;
-    list-style: none;
     justify-content: flex-end;
 }
 
-a:visited {
-    color: aqua;
-}
 
 .nav-items a{
     color: white;
     text-decoration: none;
     font-size: 14px;
+}
+
+.nav-items a:hover {
+    color: aqua;
 }
 
 #hero-section {
@@ -368,8 +372,6 @@ button{
 /* Contact Client Section Maria ends  */
 
 
-/* Contact Client Section Maria starts  */
-
 
 /* Footer Simran starts */
 footer .container {
@@ -435,7 +437,7 @@ footer .main-footer .mainfooter_nav_second h5 {
         margin-bottom: 40px;
 }
 
-footer .main-footer .mainfooter_nav_main .mainfooter_nav_copyright {
+.main-footer .mainfooter_nav_main .mainfooter_nav_copyright {
 
     color: #fff;
     text-decoration: none;
@@ -451,7 +453,6 @@ footer .main-footer .mainfooter_nav_main ul {
 
 footer .main-footer .mainfooter_nav_main ul li {
     margin-bottom: 20px;
-    list-style-type: none;
 }
 
 footer .main-footer .mainfooter_nav_main {
@@ -529,7 +530,7 @@ footer .main-footer .row .email input {
 
 footer .main-footer .row .email::placeholder {
     color: rgb(255, 255, 255);
-
+}
 
 footer .main-footer .row .email input {
     background: #ffffff;
@@ -540,7 +541,7 @@ footer .main-footer .row .email input {
     width: 65%;
     background: none;
     height: 28px;
-        margin: 0;
+    margin: 0;
 }
 
 footer .main-footer .row .email a {
@@ -562,7 +563,7 @@ footer .main-footer .row .mobile-social-icon ul {
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
@@ -573,11 +574,8 @@ footer .main-footer .row .mobile-social-icon ul {
     align-self: center;
 }
 
-footer .main-footer .row .mobile-social-icon ul li {
-    list-style-type: none;
-}
+.main-footer .row .mobile-social-icon ul img {
 
-footer .main-footer .row .mobile-social-icon ul img {
     margin-right: 20px;
     opacity: 0.9;
     border-radius: 4px;
