@@ -512,7 +512,7 @@ footer .main-footer .row .main-footer-disk p {
     max-width: 342px;
 }
 
-footer .main-footer .row .email {
+footer .main-footer .row .email input {
     position: relative;
     margin-top: 34px;
     opacity: 0.7;
